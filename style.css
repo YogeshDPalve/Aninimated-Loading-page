@@ -39,14 +39,24 @@ body {
         box-shadow: 1px 5px 2px #2519cf;
     }
 
+    25% {
+        transform: rotate(90deg);
+        box-shadow: 1px 5px 2px #7824a9;
+    }
+
     50% {
         transform: rotate(180deg);
-        box-shadow: 1px 5px 2px #7824a9;
+        box-shadow: 1px 5px 2px #cf1986;
+    }
+
+    75% {
+        transform: rotate(270deg);
+        box-shadow: 1px 5px 2px #cf1919;
     }
 
     100% {
         transform: rotate(360deg);
-        box-shadow: 1px 5px 2px #cf1986;
+        box-shadow: 1px 5px 2px #5c19cf;
     }
 }
 
